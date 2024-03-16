@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" href="logo.jpg" style="border-radius: 50%;">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+  <script src="https://kit.fontawesome.com/8a42449199.js" crossorigin="anonymous"></script>
+
+  <style>
+    @keyframes moveFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.element:nth-child(even) {
+  animation: moveFromRight 0.5s ease forwards;
+}
+
+.element:nth-child(odd) {
+  animation: moveFromLeft 0.5s ease forwards;
+}
+
+  </style>
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><img src="images/19eca2cd-893d-43bb-918e-977dd8f4dc21.jpeg" style="border-radius: 50%;" width="50" height="50"> PORT<span
+          style="color: rgb(88, 64, 97);">FOLIO</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#testimonial">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style="color: rgb(31, 104, 31);" id="clock">Clock</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="elements">
+            <div class="centre">
+              <h4>Hello It's me</h4>
+              <h1>Richard Nzembei</h1>
+              <h4> I'm a <span class="multiple"></span></h4>
+
+  
+              <div class="icons">
+                <a href="https://wa.me/254740934445"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/reuben__rnzembei"><i class="fab fa-instagram"></i></a>
+               
+                <a href="https://github.com/RichardNzembei"><i class="fab fa-github"></i></a>
+               
+                <a href="https://t.me/Robi"><i class="fab fa-telegram"></i></a>
+              </div>
+              <p>
+                As an accomplished software engineer, my expertise lies in crafting both frontend and backend applications. I am deeply dedicated to achieving excellence, placing a strong emphasis on speed, accessibility, and responsiveness in the applications I develop..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="elements">
+            <div class="img">
+              <img src="images/19eca2cd-893d-43bb-918e-977dd8f4dc21.jpeg" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about">
+        <h2>About</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="elements">
+            <div class="image">
+              <img src="images/atinnit.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="elements">
+            <h3 style="color: #ff0066;"><span style="color: tomato;font-size: 140%; font-weight: bold;">|</span>About
+            </h3>
+            <p>
+              Welcome to my realm of seamless full-stack web development and app creation! As an adept full-stack web developer, I possess proficiency in  JavaScript (Node.js, Express.js, React.js), HTML, CSS, and SQL. My expertise spans the entire spectrum of web development, allowing me to effortlessly blend code into polished digital solutions and fashion dynamic web applications.
+              
+              Fueled by a deep passion for constructing efficient systems and delivering exceptional user experiences, I excel at transforming intricate challenges into elegant solutions. My diverse skill set in various stacks and technologies empowers me to devise comprehensive solutions that transcend both web and mobile platforms.
+              
+              Furthermore, I bring specialized knowledge in app development, particularly in Flutter and Dart, enhancing my capability to deliver innovative and impactful solutions.
+              
+              Dedicated to ongoing enhancement, I remain at the forefront of industry trends and best practices. If you're in search of a passionate, skilled full-stack web developer committed to excellence, I'm eager to explore how I can contribute to your organization. Let's embark on a collaborative journey, turning visionary concepts into extraordinary realities.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="about">
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="thumbnail">
+            <img src="images/calc.jpeg">
+          </div>
+          <div class="element">
+            <h3>modified calc</h3>
+            <hr>
+            <a href="https://github.com/RichardNzembei/modifiedcalculator.git" class="btn btn-outline-success">Code</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="element">
+            <div class="thumbnail">
+              <img src="images/expense.jpeg">
+            </div>
+            <div class="element">
+              <h3>Expense tracker</h3>
+              <hr>
+              <a href="https://github.com/RichardNzembei/expense-tracker.git" class="btn btn-outline-success">Code</a>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col-lg-4">
+          <div class="element">
+            <div class="thumbnail">
+              <img src="images/marketing.jpeg">
+            </div>
+            <div class="element">
+              <h3>marketing website</h3>
+              <hr>
+              <a href="https://github.com/laytonmusyoki/housing-booking-with-python" class="btn btn-outline-success">Code</a>
+            </div>
+          </div>
+        </div>
+        <!--live projects  -->
+
+        <div class="about" style="margin: 30px auto;">
+          <h1 style="color: #555;">Live Projects</h1>
+        </div>
+        <div class="col-lg-6">
+          <div class="element">
+            <div class="thumbnail">
+              <img src="" alt="">
+            </div>
+            <div class="element">
+              <h3></h3>
+              <p><hr>
+              <a href="" class="btn btn-outline-success">Visit</a>
+            </div>
+          </div>
+        </div>
+
+        
+
+        
+        <!--  -->
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="about">
+        <h2>Services</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="element bg-success">
+            <h3 style="color: rgb(0, 255, 13);">Backend development</h3>
+            <hr>
+            <p  style="color: #fff;"> Experienced in crafting and deploying resilient backend solutions. Proficient in utilizing JavaScript (Node.js, Express.js) and SQL to create scalable APIs and web applications. Demonstrated capability in enhancing database efficiency and safeguarding data integrity and privacy.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="element bg-info">
+            <h3 style="color: #b3094d;">Frontend development</h3>
+            <hr>
+            <p>
+              As a seasoned frontend developer, I excel in crafting visually appealing and adaptable web interfaces using HTML, CSS, JavaScript, and the React framework. With a focus on design and user interaction, I work closely with designers to integrate intuitive UI designs that improve usability. By utilizing Bootstrap, I ensure that websites smoothly adjust to different devices, ensuring a uniform and pleasant user experience..</p>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="about">
+        <h2>Contact</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="elements">
+            <h3 style="color: #555;">Gmail: <span>richardreuben67@gmail.com</span></h3>
+            <h3 style="color: #555;">Phone: <span>0716899396</span></h3>
+            <h3 style="color:#ff0066; ">Social media links</h3>
+            <div class="icons">
+              <a href="https://wa.me/254740934445"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://www.instagram.com/reuben__rnzembei"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/RichardNzembei"><i class="fab fa-github"></i></a>
+              <a href="https://t.me/Robi"><i class="fab fa-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="elements">
+            <h3 style="color: #ff0066;">Message:</h3>
+            <form  action="https://formspree.io/f/mzbnabkg" method="POST">
+              <input type="text" name="name" placeholder="Enter your name" required>
+              <input type="email" name="email" placeholder="Enter your email" required>
+              <textarea name="message" id="" cols="50" rows="10" placeholder="Type your message here..." required></textarea>
+              <button type="submit" class="btn btn-outline-success btns">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial" id="testimonial">
+    <div class="container">
+      <div class="about">
+        <h2>Testimonial</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="elements">
+            <div class="img">
+              <img src="images/levi.jpeg">
+            </div>
+            <h3>Levi</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p style="text-align: center;">
+              Richard is an extremely enthusiastic developer with a knack for fast learning and adeptness in  JavaScript (Node.js, Express.js). He thrives on developing and delivering applications promptly. As a colleague, he values collaboration and fosters a positive working environment. Working with Reuben has been delightful, and I eagerly anticipate further collaborations with him.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+         
+        
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <hr>
+    <p style="text-align: center; color: #ff0066;">&copy; 2023 All rights reserved || Layton Softwares</p>
+  </footer>
+
+  <script>
+    var typed = new Typed('.multiple', {
+      strings: ['Full stack web developer','App Developer', 'UIX designer', 'Database Administrator','Data science enthusiast'],
+      typeSpeed: 50,
+      backspeed: 50,
+      backdelay: 1000,
+      loop: true
+    });
+
+    
+  </script>
+  <script src="app.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
