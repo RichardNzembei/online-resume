@@ -37,3 +37,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     animateElements(); // Initial check
 });
+document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed('.multiples', {
+      strings: ['full stack web developer', 'app developer', 'database administrator'],
+      typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 1000,
+      loop: true
+    });
+  });
